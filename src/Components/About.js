@@ -5,6 +5,45 @@ const About = () => {
         <div className="about">
             <h2>About India Tourism</h2>
             <p>We aim to showcase the best travel destinations in India.</p>
+
+            { /*Flip card Section */ }
+            <div className="flip-card-container">
+                <div className="flip-card">
+                    <div className="flip-card-inner">
+                        <div className="flip-card-front">
+                            <h3>40+</h3>
+                            <p>UNESCO Heritage Sites</p>
+                        </div>
+                        <div className="flip-card-back">
+                            <p>India has over 40 UNESCO World Heritage Sites, including the Taj Mahal and Jaipur's City Palace.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div className="flip-card">
+                    <div className="flip-card-inner">
+                        <div className="flip-card-front">
+                            <h3>100+</h3>
+                            <p>National Parks</p>
+                        </div>
+                        <div className="flip-card-back">
+                            <p>Explore India's incredible biodiversity across more than 100 national parks, like Jim Corbett and Kaziranga.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div className="flip-card">
+                    <div className="flip-card-inner">
+                        <div className="flip-card-front">
+                            <h3>7000+</h3>
+                            <p>KM of Coastline</p>
+                        </div>
+                        <div className="flip-card-back">
+                            <p>India has a vast coastline stretching over 7000 Km, featuring stunning beaches in Goa, Kerala, and Andman Islands.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     );
 };
